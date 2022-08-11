@@ -1,3 +1,16 @@
-
+@media (max-width: 767px) {
+  body {
+    font-size: 0.9rem;
+  }
+  .container {
+    padding: 0 15px;
+  }
+  .header__inner {
+    padding: 15px 0 20px;
+  }
+  .header__logo {
+    font-size: 1.5rem;
+  }
+}
 
 /*# sourceMappingURL=media.css.map */

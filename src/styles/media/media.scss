@@ -1,2 +1,19 @@
 @media (max-width: 767px) {
+  body {
+    font-size: 0.9rem;
+  }
+
+  .container {
+    padding: 0 15px;
+  }
+
+  .header {
+    &__inner {
+      padding: 15px 0 20px;
+    }
+
+    &__logo {
+      font-size: 1.5rem;
+    }
+  }
 }

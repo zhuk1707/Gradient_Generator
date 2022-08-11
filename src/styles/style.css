@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Sora:wght@100;200;300;400;500;600;700;800&display=swap");
 body {
   font-family: "Sora", sans-serif;
-  font-size: 16px;
+  font-size: 1rem;
 }
 
 *, *:before, *:after {
@@ -64,7 +64,7 @@ main {
 .header__logo {
   color: inherit;
   font-weight: 700;
-  font-size: 32px;
+  font-size: 2rem;
 }
 .panel__colors {
   display: flex;

@@ -69,12 +69,14 @@ main {
   display: flex;
   flex-wrap: wrap;
   padding-bottom: 15px;
-  gap: 15px;
+  gap: 20px;
 }
 .panel__color {
   display: flex;
   align-items: center;
+  justify-content: space-between;
   gap: 8px;
+  width: 160px;
 }
 .panel__preview {
   display: inline;

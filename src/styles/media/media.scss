@@ -16,4 +16,14 @@
       font-size: 1.5rem;
     }
   }
+
+  .panel {
+    &__buttons {
+      flex-wrap: wrap;
+    }
+
+    &__button {
+      width: 100%;
+    }
+  }
 }

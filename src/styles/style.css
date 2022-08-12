@@ -29,7 +29,6 @@ button {
 }
 
 body {
-  background: linear-gradient(90deg, #41EB47, #51D5FF);
   transition: background-color 0.5s ease;
 }
 
@@ -94,7 +93,7 @@ main {
   padding: 6px 16px;
   border-radius: 24px;
   background-color: transparent;
-  font-size: inherit;
+  font-size: 14px;
   width: 50%;
   transition: 0.3s ease;
 }

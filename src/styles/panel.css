@@ -1,0 +1,38 @@
+.panel__colors {
+  display: flex;
+  flex-wrap: wrap;
+  padding-bottom: 15px;
+  gap: 15px;
+}
+.panel__color {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.panel__preview {
+  display: inline;
+  width: 80px;
+  height: 30px;
+  background: #41EB47;
+  border-radius: 10px;
+}
+.panel__buttons {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+.panel__button {
+  border: 1px solid black;
+  padding: 6px 16px;
+  border-radius: 24px;
+  background-color: transparent;
+  font-size: 14px;
+  width: 50%;
+  transition: 0.3s ease;
+}
+.panel__button:hover {
+  color: white;
+  background-color: black;
+}
+
+/*# sourceMappingURL=panel.css.map */

@@ -1,0 +1,25 @@
+@import "../colors/colors";
+
+.footer {
+  &__inner {
+    text-align: center;
+    color: $light-grey;
+    font-weight: 300;
+
+    position: fixed;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    padding-bottom: 20px;
+
+    & a {
+      color: inherit;
+      font-weight: 600;
+
+      transition: .3s ease;
+      &:hover {
+        color: #fafafa;
+      }
+    }
+  }
+}

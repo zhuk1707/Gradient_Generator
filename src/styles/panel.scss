@@ -1,0 +1,47 @@
+@import "../colors/colors";
+
+.panel {
+  &__colors {
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 15px;
+    gap: 15px;
+  }
+
+  &__color {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+
+  &__preview {
+    display: inline;
+    width: 80px;
+    height: 30px;
+    background: #41EB47;
+    border-radius: 10px;
+  }
+
+  &__buttons {
+    display: flex;
+    //flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 10px;
+  }
+
+  &__button {
+    border: 1px solid $black;
+    padding: 6px 16px;
+    border-radius: 24px;
+    background-color: transparent;
+    font-size: 14px;
+    width: 50%;
+
+
+    transition: .3s ease;
+    &:hover {
+      color: $white;
+      background-color: $black;
+    }
+  }
+}

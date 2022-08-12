@@ -1,0 +1,18 @@
+.header {
+  background-color: white;
+}
+.header__inner {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  row-gap: 10px;
+  padding: 20px 0;
+}
+.header__logo {
+  color: inherit;
+  font-weight: 700;
+  font-size: 2rem;
+}
+
+/*# sourceMappingURL=header.css.map */

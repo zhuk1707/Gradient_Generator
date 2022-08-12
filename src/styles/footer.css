@@ -1,0 +1,20 @@
+.footer__inner {
+  text-align: center;
+  color: #e0e0e0;
+  font-weight: 300;
+  position: fixed;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  padding-bottom: 20px;
+}
+.footer__inner a {
+  color: inherit;
+  font-weight: 600;
+  transition: 0.3s ease;
+}
+.footer__inner a:hover {
+  color: #fafafa;
+}
+
+/*# sourceMappingURL=footer.css.map */

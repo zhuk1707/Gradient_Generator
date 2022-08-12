@@ -86,9 +86,8 @@ main {
 }
 .panel__buttons {
   display: flex;
-  flex-wrap: wrap;
   justify-content: space-between;
-  row-gap: 10px;
+  gap: 10px;
 }
 .panel__button {
   border: 1px solid black;
@@ -96,6 +95,7 @@ main {
   border-radius: 24px;
   background-color: transparent;
   font-size: inherit;
+  width: 50%;
   transition: 0.3s ease;
 }
 .panel__button:hover {

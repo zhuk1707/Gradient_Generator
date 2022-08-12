@@ -70,9 +70,9 @@ main {
 
   &__buttons {
     display: flex;
-    flex-wrap: wrap;
+    //flex-wrap: wrap;
     justify-content: space-between;
-    row-gap: 10px;
+    gap: 10px;
   }
 
   &__button {
@@ -81,6 +81,8 @@ main {
     border-radius: 24px;
     background-color: transparent;
     font-size: inherit;
+    width: 50%;
+
 
     transition: .3s ease;
     &:hover {
